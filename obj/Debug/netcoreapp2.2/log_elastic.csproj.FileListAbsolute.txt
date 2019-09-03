@@ -1,0 +1,6 @@
+d:\Projetos\log_elastic\obj\Debug\netcoreapp2.2\log_elastic.csprojAssemblyReference.cache
+d:\Projetos\log_elastic\obj\Debug\netcoreapp2.2\log_elastic.csproj.CoreCompileInputs.cache
+d:\Projetos\log_elastic\obj\Debug\netcoreapp2.2\log_elastic.RazorAssemblyInfo.cache
+d:\Projetos\log_elastic\obj\Debug\netcoreapp2.2\log_elastic.RazorAssemblyInfo.cs
+d:\Projetos\log_elastic\obj\Debug\netcoreapp2.2\log_elastic.AssemblyInfoInputs.cache
+d:\Projetos\log_elastic\obj\Debug\netcoreapp2.2\log_elastic.AssemblyInfo.cs
