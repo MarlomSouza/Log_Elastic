@@ -4,3 +4,11 @@ d:\Projetos\log_elastic\obj\Debug\netcoreapp2.2\log_elastic.RazorAssemblyInfo.ca
 d:\Projetos\log_elastic\obj\Debug\netcoreapp2.2\log_elastic.RazorAssemblyInfo.cs
 d:\Projetos\log_elastic\obj\Debug\netcoreapp2.2\log_elastic.AssemblyInfoInputs.cache
 d:\Projetos\log_elastic\obj\Debug\netcoreapp2.2\log_elastic.AssemblyInfo.cs
+D:\Projetos\log_elastic\bin\Debug\netcoreapp2.2\log_elastic.deps.json
+D:\Projetos\log_elastic\bin\Debug\netcoreapp2.2\log_elastic.runtimeconfig.json
+D:\Projetos\log_elastic\bin\Debug\netcoreapp2.2\log_elastic.runtimeconfig.dev.json
+d:\Projetos\log_elastic\bin\Debug\netcoreapp2.2\log_elastic.dll
+d:\Projetos\log_elastic\bin\Debug\netcoreapp2.2\log_elastic.pdb
+d:\Projetos\log_elastic\obj\Debug\netcoreapp2.2\log_elastic.RazorTargetAssemblyInfo.cache
+d:\Projetos\log_elastic\obj\Debug\netcoreapp2.2\log_elastic.dll
+d:\Projetos\log_elastic\obj\Debug\netcoreapp2.2\log_elastic.pdb

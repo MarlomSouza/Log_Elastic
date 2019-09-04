@@ -16,8 +16,21 @@ namespace log_elastic.Controllers
         }
 
         [HttpPost]
-        public void Post(){
-            
+        public void Post([FromBody] ExpDto exp)
+        {
+            _service.Salvar(exp.Valor);
         }
+
+        [HttpGet]
+        public string Get()
+        {
+            return "OI";
+        }
+    }
+
+
+    public class ExpDto
+    {
+        public string Valor { get; set; }
     }
 }
