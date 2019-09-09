@@ -13,8 +13,10 @@ namespace log_elastic.Aplication
             _logger = logger;
         }
 
-        public void Salvar(string valor) { 
+        public void Salvar(string valor)
+        {
             _logger.LogInformation($"Chamou salvar com o texto =>  {valor}");
-            _repository.Save(valor); }
+            _repository.Save(valor);
+        }
     }
 }

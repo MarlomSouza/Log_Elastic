@@ -9,32 +9,28 @@ namespace log_elastic.Infra
     {
         private readonly ILogger<Repository> _logger;
 
-        public Repository( ILogger<Repository> logger) {
-            _logger = logger;
-        }
+        public Repository(ILogger<Repository> logger) => _logger = logger;
 
         public void Save(string value)
         {
             string path = @"D:\Projetos\log_elastic\Banco\Todo.txt";
+            var mensagem = string.Format("Hora = {0}", value);
             if (!File.Exists(path))
             {
                 _logger.LogInformation("O Arquivo existe");
                 // Create a file to write to.
                 using (StreamWriter sw = File.CreateText(path))
                 {
-                    sw.WriteLine(value);
+                    sw.WriteLine(mensagem);
                 }
             }
-            _logger.LogInformation("Ta fora do if");
-            // Open the file to read from.
-            using (StreamReader sr = File.OpenText(path))
+
+            using (StreamWriter sw = File.AppendText(path))
             {
-                string s = "";
-                while ((s = sr.ReadLine()) != null)
-                {
-                    Console.WriteLine(s);
-                }
+                sw.WriteLine(mensagem);
             }
+
+            _logger.LogInformation("Escreve se ja existe o arquivo");
         }
     }
 }

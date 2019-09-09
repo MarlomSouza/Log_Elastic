@@ -32,6 +32,7 @@ namespace log_elastic
         {
             services.AddScoped<IRepository, Repository>();
             services.AddScoped(typeof(Service), typeof(Service));
+            services.AddHostedService<BackgroudService>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
